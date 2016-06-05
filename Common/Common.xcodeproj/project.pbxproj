@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		54F510820EB5FF0CC48E5F30 /* libPods-Common.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A14F3A7D5A155EA5EE3683 /* libPods-Common.a */; };
-		9F3A31C51D03EA15008502D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3A31C41D03EA15008502D6 /* Foundation.framework */; };
 		9F3A31FF1D03F541008502D6 /* NSDate+ZLCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3A31D11D03F541008502D6 /* NSDate+ZLCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3A32001D03F541008502D6 /* NSDate+ZLCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3A31D21D03F541008502D6 /* NSDate+ZLCalendar.m */; };
 		9F3A32011D03F541008502D6 /* NSDate+ZLFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3A31D31D03F541008502D6 /* NSDate+ZLFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -53,9 +52,9 @@
 		9F3A32281D03F541008502D6 /* UITableView+ZLStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3A31FC1D03F541008502D6 /* UITableView+ZLStyle.m */; };
 		9F3A32291D03F541008502D6 /* UIView+ZLStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3A31FD1D03F541008502D6 /* UIView+ZLStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F3A322A1D03F541008502D6 /* UIView+ZLStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3A31FE1D03F541008502D6 /* UIView+ZLStyle.m */; };
-		9F3A322F1D03FD58008502D6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3A322E1D03FD58008502D6 /* UIKit.framework */; };
-		9F3A32311D03FE66008502D6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3A32301D03FE66008502D6 /* CoreFoundation.framework */; };
-		9F3A32331D03FE82008502D6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3A32321D03FE82008502D6 /* CoreGraphics.framework */; };
+		9F3A32391D042A85008502D6 /* ZLLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3A32371D042A85008502D6 /* ZLLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F3A323A1D042A85008502D6 /* ZLMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3A32381D042A85008502D6 /* ZLMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F3A32411D043656008502D6 /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F3A32401D0435EF008502D6 /* Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -75,7 +74,6 @@
 		93A14F3A7D5A155EA5EE3683 /* libPods-Common.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Common.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4F1C0A322ECF647BC0003C /* Pods-Common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-Common/Pods-Common.debug.xcconfig"; sourceTree = "<group>"; };
 		9F3A31B61D03E816008502D6 /* libCommon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommon.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F3A31C41D03EA15008502D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9F3A31D11D03F541008502D6 /* NSDate+ZLCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZLCalendar.h"; sourceTree = "<group>"; };
 		9F3A31D21D03F541008502D6 /* NSDate+ZLCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZLCalendar.m"; sourceTree = "<group>"; };
 		9F3A31D31D03F541008502D6 /* NSDate+ZLFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZLFormat.h"; sourceTree = "<group>"; };
@@ -121,9 +119,9 @@
 		9F3A31FD1D03F541008502D6 /* UIView+ZLStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZLStyle.h"; sourceTree = "<group>"; };
 		9F3A31FE1D03F541008502D6 /* UIView+ZLStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZLStyle.m"; sourceTree = "<group>"; };
 		9F3A322D1D03F884008502D6 /* ZLCommonHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZLCommonHeader.pch; sourceTree = "<group>"; };
-		9F3A322E1D03FD58008502D6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		9F3A32301D03FE66008502D6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		9F3A32321D03FE82008502D6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F3A32371D042A85008502D6 /* ZLLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLLog.h; sourceTree = "<group>"; };
+		9F3A32381D042A85008502D6 /* ZLMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLMacro.h; sourceTree = "<group>"; };
+		9F3A32401D0435EF008502D6 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,10 +129,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F3A32331D03FE82008502D6 /* CoreGraphics.framework in Frameworks */,
-				9F3A32311D03FE66008502D6 /* CoreFoundation.framework in Frameworks */,
-				9F3A322F1D03FD58008502D6 /* UIKit.framework in Frameworks */,
-				9F3A31C51D03EA15008502D6 /* Foundation.framework in Frameworks */,
 				54F510820EB5FF0CC48E5F30 /* libPods-Common.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -172,9 +166,11 @@
 		9F3A31B81D03E816008502D6 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				9F3A32361D042A85008502D6 /* Macro */,
 				9F3A31D01D03F541008502D6 /* Category */,
 				9F3A31F01D03F541008502D6 /* Style */,
 				9F3A322B1D03F75F008502D6 /* Supporting Files */,
+				9F3A32401D0435EF008502D6 /* Common.h */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -248,13 +244,18 @@
 		9F3A322C1D03F7B1008502D6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9F3A32321D03FE82008502D6 /* CoreGraphics.framework */,
-				9F3A32301D03FE66008502D6 /* CoreFoundation.framework */,
-				9F3A322E1D03FD58008502D6 /* UIKit.framework */,
-				9F3A31C41D03EA15008502D6 /* Foundation.framework */,
 				93A14F3A7D5A155EA5EE3683 /* libPods-Common.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F3A32361D042A85008502D6 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				9F3A32371D042A85008502D6 /* ZLLog.h */,
+				9F3A32381D042A85008502D6 /* ZLMacro.h */,
+			);
+			path = Macro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +287,9 @@
 				9F3A32291D03F541008502D6 /* UIView+ZLStyle.h in Headers */,
 				9F3A31FF1D03F541008502D6 /* NSDate+ZLCalendar.h in Headers */,
 				9F3A32071D03F541008502D6 /* NSString+ZLDate.h in Headers */,
+				9F3A323A1D042A85008502D6 /* ZLMacro.h in Headers */,
+				9F3A32391D042A85008502D6 /* ZLLog.h in Headers */,
+				9F3A32411D043656008502D6 /* Common.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +439,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = Common/ZLCommonHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -449,6 +454,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
@@ -477,6 +483,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = Common/ZLCommonHeader.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -486,6 +493,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
